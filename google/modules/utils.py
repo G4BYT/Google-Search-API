@@ -430,7 +430,7 @@ def _get_search_url(query, page=0, per_page=10, lang='en', area='com', ncr=False
 
 def get_html(url):
     ua = UserAgent()
-    header = ua.random
+    header = ua.chrome
 
     try:
         request = urllib.request.Request(url)
